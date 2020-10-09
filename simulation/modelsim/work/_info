@@ -1,0 +1,61 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/daniel/Documents/GitHub/fibonacci_execise/simulation/modelsim
+vfibonacci
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1602274606
+!i10b 1
+!s100 80]6<Q?HzF]g<I?<S:KDJ3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+INl?C]52EXj5c1zUgR]jTL2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1602274563
+8/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv
+F/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv
+!i122 20
+L0 1 24
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1602274606.000000
+!s107 /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vfibonacci_tb
+R1
+R2
+!i10b 1
+!s100 =jT96OKGdH_YR6BaN?22<1
+R3
+I>XA_bKN]OhMAE]]HdF5F<0
+R4
+S1
+R0
+w1602274368
+8/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv
+F/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv
+!i122 21
+L0 4 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv|
+!i113 1
+R7
+R8

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at fibonacci.sv(12): always construct contains both blocking and non-blocking assignments File: /home/daniel/Documents/GitHub/vlsi_exercises/fibonacci.sv Line: 12

@@ -1,0 +1,36 @@
+# Compile of fibonacci.sv was successful.
+# Compile of fibonacci_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.fibonacci_tb
+# vsim work.fibonacci_tb 
+# Start time: 17:16:51 on Oct 09,2020
+# Loading sv_std.std
+# Loading work.fibonacci_tb
+# Loading work.fibonacci
+run
+# 	 0, 	 0, 	     x
+# 	 1, 	 0, 	     0
+# 	 0, 	 0, 	     0
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     2
+# 	 0, 	 0, 	     2
+# 	 1, 	 0, 	     3
+# 	 0, 	 0, 	     3
+# 	 1, 	 0, 	     5
+# 	 0, 	 0, 	     5
+# 	 1, 	 0, 	     8
+# 	 0, 	 0, 	     8
+# 	 1, 	 0, 	    13
+# 	 0, 	 0, 	    13
+# 	 1, 	 0, 	    21
+# 	 0, 	 0, 	    21
+# 	 1, 	 0, 	     0
+# ** Note: $finish    : /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv(38)
+#    Time: 100 ps  Iteration: 0  Instance: /fibonacci_tb
+# 1
+# Break in Module fibonacci_tb at /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv line 38
+# End time: 17:19:23 on Oct 09,2020, Elapsed time: 0:02:32
+# Errors: 0, Warnings: 2
