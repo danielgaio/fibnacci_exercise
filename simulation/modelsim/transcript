@@ -3,11 +3,15 @@
 # 2 compiles, 0 failed with no errors.
 vsim work.fibonacci_tb
 # vsim work.fibonacci_tb 
-# Start time: 17:16:51 on Oct 09,2020
+# Start time: 14:47:37 on Nov 02,2020
 # Loading sv_std.std
 # Loading work.fibonacci_tb
 # Loading work.fibonacci
-run
+add wave -position end  sim:/fibonacci_tb/clk_tb
+add wave -position end  sim:/fibonacci_tb/f_tb
+add wave -position end  sim:/fibonacci_tb/reset_tb
+run -all
+# 	 clk_tb, 	 reset_tb, 	 fibonacci value
 # 	 0, 	 0, 	     x
 # 	 1, 	 0, 	     0
 # 	 0, 	 0, 	     0
@@ -27,10 +31,142 @@ run
 # 	 0, 	 0, 	    13
 # 	 1, 	 0, 	    21
 # 	 0, 	 0, 	    21
+# ** Note: $stop    : /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv(35)
+#    Time: 95 ps  Iteration: 0  Instance: /fibonacci_tb
+# Break in Module fibonacci_tb at /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv line 35
+# Compile of fibonacci.sv was successful.
+# Compile of fibonacci_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.fibonacci_tb
+# End time: 14:49:10 on Nov 02,2020, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 3
+# vsim work.fibonacci_tb 
+# Start time: 14:49:10 on Nov 02,2020
+# Loading sv_std.std
+# Loading work.fibonacci_tb
+# Loading work.fibonacci
+run -all
+# 	 clk_tb, 	 reset_tb, 	 fibonacci value
 # 	 1, 	 0, 	     0
-# ** Note: $finish    : /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv(38)
-#    Time: 100 ps  Iteration: 0  Instance: /fibonacci_tb
-# 1
-# Break in Module fibonacci_tb at /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv line 38
-# End time: 17:19:23 on Oct 09,2020, Elapsed time: 0:02:32
+# 	 0, 	 0, 	     0
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     2
+# 	 0, 	 0, 	     2
+# 	 1, 	 0, 	     3
+# 	 0, 	 0, 	     3
+# 	 1, 	 0, 	     5
+# 	 0, 	 0, 	     5
+# 	 1, 	 0, 	     8
+# 	 0, 	 0, 	     8
+# 	 1, 	 0, 	    13
+# 	 0, 	 0, 	    13
+# 	 1, 	 0, 	    21
+# 	 0, 	 0, 	    21
+# ** Note: $stop    : /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv(35)
+#    Time: 95 ps  Iteration: 0  Instance: /fibonacci_tb
+# Break in Module fibonacci_tb at /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv line 35
+add wave -position end  sim:/fibonacci_tb/clk_tb
+add wave -position end  sim:/fibonacci_tb/f_tb
+add wave -position end  sim:/fibonacci_tb/reset_tb
+restart
+run -all
+# 	 clk_tb, 	 reset_tb, 	 fibonacci value
+# 	 1, 	 0, 	     0
+# 	 0, 	 0, 	     0
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     2
+# 	 0, 	 0, 	     2
+# 	 1, 	 0, 	     3
+# 	 0, 	 0, 	     3
+# 	 1, 	 0, 	     5
+# 	 0, 	 0, 	     5
+# 	 1, 	 0, 	     8
+# 	 0, 	 0, 	     8
+# 	 1, 	 0, 	    13
+# 	 0, 	 0, 	    13
+# 	 1, 	 0, 	    21
+# 	 0, 	 0, 	    21
+# ** Note: $stop    : /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv(35)
+#    Time: 95 ps  Iteration: 0  Instance: /fibonacci_tb
+# Break in Module fibonacci_tb at /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv line 35
+# Compile of fibonacci.sv was successful.
+# Compile of fibonacci_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.fibonacci_tb
+# End time: 14:50:32 on Nov 02,2020, Elapsed time: 0:01:22
 # Errors: 0, Warnings: 2
+# vsim work.fibonacci_tb 
+# Start time: 14:50:32 on Nov 02,2020
+# Loading sv_std.std
+# Loading work.fibonacci_tb
+# Loading work.fibonacci
+add wave -position end  sim:/fibonacci_tb/clk_tb
+add wave -position end  sim:/fibonacci_tb/f_tb
+add wave -position end  sim:/fibonacci_tb/reset_tb
+run -all
+# 	 clk_tb, 	 reset_tb, 	 fibonacci value
+# 	 1, 	 0, 	     0
+# 	 0, 	 0, 	     0
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     2
+# 	 0, 	 0, 	     2
+# 	 1, 	 0, 	     3
+# 	 0, 	 0, 	     3
+# 	 1, 	 0, 	     5
+# 	 0, 	 0, 	     5
+# 	 1, 	 0, 	     8
+# 	 0, 	 0, 	     8
+# 	 1, 	 0, 	    13
+# 	 0, 	 0, 	    13
+# ** Note: $stop    : /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv(35)
+#    Time: 95 ps  Iteration: 0  Instance: /fibonacci_tb
+# Break in Module fibonacci_tb at /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv line 35
+# Compile of fibonacci.sv was successful.
+# Compile of fibonacci_tb.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.fibonacci_tb
+# End time: 14:51:23 on Nov 02,2020, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# vsim work.fibonacci_tb 
+# Start time: 14:51:23 on Nov 02,2020
+# Loading sv_std.std
+# Loading work.fibonacci_tb
+# Loading work.fibonacci
+add wave -position end  sim:/fibonacci_tb/clk_tb
+add wave -position end  sim:/fibonacci_tb/f_tb
+add wave -position end  sim:/fibonacci_tb/reset_tb
+run -all
+# 	 clk_tb, 	 reset_tb, 	 fibonacci value
+# 	 0, 	 0, 	     x
+# 	 1, 	 0, 	     0
+# 	 0, 	 0, 	     0
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     1
+# 	 0, 	 0, 	     1
+# 	 1, 	 0, 	     2
+# 	 0, 	 0, 	     2
+# 	 1, 	 0, 	     3
+# 	 0, 	 0, 	     3
+# 	 1, 	 0, 	     5
+# 	 0, 	 0, 	     5
+# 	 1, 	 0, 	     8
+# 	 0, 	 0, 	     8
+# 	 1, 	 0, 	    13
+# 	 0, 	 0, 	    13
+# 	 1, 	 0, 	    21
+# 	 0, 	 0, 	    21
+# ** Note: $stop    : /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv(35)
+#    Time: 95 ps  Iteration: 0  Instance: /fibonacci_tb
+# Break in Module fibonacci_tb at /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv line 35
+# End time: 14:52:23 on Nov 02,2020, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 1

@@ -1,11 +1,11 @@
-/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv {1 {vlog -work work -sv -stats=none /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv
+/home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv {1 {vlog -work work -sv -stats=none /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module fibonacci
 
 Top level modules:
 	fibonacci
 
-} {} {}} /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv {1 {vlog -work work -sv -stats=none /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv
+} {} {}} /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv {1 {vlog -work work -sv -stats=none /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module fibonacci_tb
 

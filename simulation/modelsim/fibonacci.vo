@@ -17,7 +17,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition"
 
-// DATE "10/09/2020 17:16:26"
+// DATE "11/02/2020 14:46:30"
 
 // 
 // Device: Altera EP4CE6E22C6 Package TQFP144
@@ -31,10 +31,10 @@
 
 module fibonacci (
 	clk,
-	clr,
+	reset,
 	f);
 input 	clk;
-input 	clr;
+input 	reset;
 output 	[13:0] f;
 
 // Design Ports Information
@@ -52,7 +52,7 @@ output 	[13:0] f;
 // f[11]	=>  Location: PIN_128,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // f[12]	=>  Location: PIN_125,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // f[13]	=>  Location: PIN_66,	 I/O Standard: 2.5 V,	 Current Strength: Default
-// clr	=>  Location: PIN_24,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// reset	=>  Location: PIN_24,	 I/O Standard: 2.5 V,	 Current Strength: Default
 // clk	=>  Location: PIN_23,	 I/O Standard: 2.5 V,	 Current Strength: Default
 
 
@@ -116,7 +116,7 @@ wire \fn1[12]~43_combout ;
 wire \fn1[12]~44 ;
 wire \fn1[13]~45_combout ;
 wire \fn1[0]~17_combout ;
-wire \clr~input_o ;
+wire \reset~input_o ;
 wire \fn1[0]~14_combout ;
 wire \fn1[0]~15_combout ;
 wire \fn1[0]~16_combout ;
@@ -1013,22 +1013,22 @@ defparam \fn1[0]~17 .sum_lutc_input = "datac";
 // synopsys translate_on
 
 // Location: IOIBUF_X0_Y11_N15
-cycloneive_io_ibuf \clr~input (
-	.i(clr),
+cycloneive_io_ibuf \reset~input (
+	.i(reset),
 	.ibar(gnd),
-	.o(\clr~input_o ));
+	.o(\reset~input_o ));
 // synopsys translate_off
-defparam \clr~input .bus_hold = "false";
-defparam \clr~input .simulate_z_as = "z";
+defparam \reset~input .bus_hold = "false";
+defparam \reset~input .simulate_z_as = "z";
 // synopsys translate_on
 
 // Location: LCCOMB_X11_Y4_N4
 cycloneive_lcell_comb \fn1[0]~14 (
 // Equation(s):
-// \fn1[0]~14_combout  = (\clr~input_o ) # ((fn1[1] & (fn1[4] & fn1[2])))
+// \fn1[0]~14_combout  = (\reset~input_o ) # ((fn1[1] & (fn1[4] & fn1[2])))
 
 	.dataa(fn1[1]),
-	.datab(\clr~input_o ),
+	.datab(\reset~input_o ),
 	.datac(fn1[4]),
 	.datad(fn1[2]),
 	.cin(gnd),

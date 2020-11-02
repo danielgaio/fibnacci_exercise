@@ -1,5 +1,5 @@
 Analysis & Synthesis report for fibonacci
-Fri Oct  9 17:16:18 2020
+Mon Nov  2 14:46:21 2020
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -46,7 +46,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Oct  9 17:16:18 2020       ;
+; Analysis & Synthesis Status        ; Successful - Mon Nov  2 14:46:21 2020       ;
 ; Quartus Prime Version              ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                      ; fibonacci                                   ;
 ; Top-level Entity Name              ; fibonacci                                   ;
@@ -161,7 +161,8 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-4         ;   0.0%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processors 3-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -170,7 +171,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------+-----------------+------------------------------+--------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                 ; Library ;
 +----------------------------------+-----------------+------------------------------+--------------------------------------------------------------+---------+
-; fibonacci.sv                     ; yes             ; User SystemVerilog HDL File  ; /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv ;         ;
+; fibonacci.sv                     ; yes             ; User SystemVerilog HDL File  ; /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv ;         ;
 +----------------------------------+-----------------+------------------------------+--------------------------------------------------------------+---------+
 
 
@@ -300,25 +301,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Fri Oct  9 17:16:11 2020
+    Info: Processing started: Mon Nov  2 14:46:14 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off fibonacci -c fibonacci
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file fibonacci.sv
-    Info (12023): Found entity 1: fibonacci File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
+    Info (12023): Found entity 1: fibonacci File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file fibonacci_tb.sv
-    Info (12023): Found entity 1: fibonacci_tb File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv Line: 4
+    Info (12023): Found entity 1: fibonacci_tb File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv Line: 4
 Info (12127): Elaborating entity "fibonacci" for the top level hierarchy
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "f[5]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[6]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[7]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[8]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[9]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[10]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[11]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[12]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
-    Warning (13410): Pin "f[13]" is stuck at GND File: /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[5]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[6]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[7]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[8]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[9]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[10]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[11]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[12]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
+    Warning (13410): Pin "f[13]" is stuck at GND File: /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv Line: 1
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -327,8 +328,8 @@ Info (21057): Implemented 41 device resources after synthesis - the final resour
     Info (21059): Implemented 14 output pins
     Info (21061): Implemented 25 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 11 warnings
-    Info: Peak virtual memory: 399 megabytes
-    Info: Processing ended: Fri Oct  9 17:16:18 2020
+    Info: Peak virtual memory: 415 megabytes
+    Info: Processing ended: Mon Nov  2 14:46:21 2020
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:18
 

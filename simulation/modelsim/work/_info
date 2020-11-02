@@ -8,54 +8,54 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/daniel/Documents/GitHub/fibonacci_execise/simulation/modelsim
+d/home/daniel/Documents/GitHub/fibonacci_execise/simulation/modelsim
 vfibonacci
-Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
-Z2 !s110 1602274606
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1604339480
 !i10b 1
-!s100 80]6<Q?HzF]g<I?<S:KDJ3
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-INl?C]52EXj5c1zUgR]jTL2
-Z4 VDg1SIo80bB@j0V0VzS_@n1
+!s100 BFE4IA;WnL6ZcBSa::^2l3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IH;6=A7f0i2<fLNWI2Paa_3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
 S1
-R0
-w1602274563
-8/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv
-F/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv
-!i122 20
-L0 1 24
+Z4 d/home/daniel/Documents/GitHub/fibnacci_exercise/simulation/modelsim
+w1603732270
+8/home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv
+F/home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv
+!i122 40
+L0 1 25
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1602274606.000000
-!s107 /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci.sv|
+Z6 !s108 1604339480.000000
+!s107 /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci.sv|
 !i113 1
 Z7 o-work work -sv
 Z8 tCvgOpt 0
 vfibonacci_tb
-R1
-R2
-!i10b 1
-!s100 =jT96OKGdH_YR6BaN?22<1
-R3
-I>XA_bKN]OhMAE]]HdF5F<0
-R4
-S1
 R0
-w1602274368
-8/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv
-F/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv
-!i122 21
-L0 4 39
+R1
+!i10b 1
+!s100 5I]NUZl6L1bF5<L6B:LC;3
+R2
+IPZcaS0m^EiE6AYI[UYNF11
+R3
+S1
+R4
+w1604339475
+8/home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv
+F/home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv
+!i122 41
+L0 4 36
 R5
 r1
 !s85 0
 31
 R6
-!s107 /home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv|
-!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/daniel/Documents/GitHub/fibonacci_execise/fibonacci_tb.sv|
+!s107 /home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/daniel/Documents/GitHub/fibnacci_exercise/fibonacci_tb.sv|
 !i113 1
 R7
 R8
